@@ -3,9 +3,7 @@ import './button.scss';
 
 const Button = ({title, ...rest}) => {
   return (
-    <div className="input-wrapper">
       <button className="button" {...rest}>{title}</button>
-    </div>
   )
 }
 
